@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 export default function Home() {
     const name = 'Solomon Koang Dak';
     const title = 'King Solomon';
-    const description = 'Serial entrepreneur, Software Engineer, Creator and Humanitarian.';
+    const description = 'I am a 21 year old serial entrepreneur, software engineer, and content creator. I like to find problems in the world and implement solutions.';
 
     return (
         <>
