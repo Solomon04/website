@@ -39,6 +39,9 @@ const Footer: FunctionComponent = () => {
             <p className="mt-8 text-center text-base text-gray-400">
                 &copy; 2021 King Solomon
             </p>
+
+            <p className="prose text-base text-gray-600 my-3">This website was built with
+                <a href="https://tailwindcss.com" target="_blank"> TailwindCSS</a>  and <a href="https://nextjs.org" target="_blank"> Next.js</a>.</p>
         </footer>
     );
 };

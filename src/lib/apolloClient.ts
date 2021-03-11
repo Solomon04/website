@@ -4,7 +4,7 @@ import {GetServerSidePropsContext} from 'next';
 
 let apolloClient: ApolloClient<NormalizedCacheObject>;
 
-function createApolloClient(context?: GetServerSidePropsContext) {
+export function createApolloClient(context?: GetServerSidePropsContext) {
     const linkConfig = [];
     const isServer = typeof window === 'undefined';
 
@@ -15,6 +15,7 @@ function createApolloClient(context?: GetServerSidePropsContext) {
     linkConfig.push(httpLink);
 
     return new ApolloClient({
+        ssrMode: isServer,
         link: ApolloLink.from(linkConfig),
         cache: new InMemoryCache({}),
     });

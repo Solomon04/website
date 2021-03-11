@@ -1,5 +1,5 @@
 import {FunctionComponent} from "react";
-import {GET_EXPERIENCES} from "../../../../src/queries/experiences";
+import {GET_EXPERIENCES} from "../../../../src/queries/queries";
 import {useQuery} from "@apollo/client";
 
 const ExperiencesContainer: FunctionComponent = () => {
