@@ -4,10 +4,9 @@ import Footer from "../components/Footer/Footer";
 import BlogPageContainer from "../components/Pages/BlogPage/BlogPageContainer";
 
 const Blog = () => {
-    const name = 'Solomon Koang Dak';
-    const title = 'Blog - King Solomon';
-    const description = 'I like to find problems in the world and write about implementing solutions. My writing' +
-        ' topics may range from software to philosophy to history. Everything interests me. ';
+    const name = 'Solomon';
+    const title = 'Blog';
+    const description = 'Talking things like entrepreneurship & software.';
 
     return (
         <>

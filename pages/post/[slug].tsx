@@ -7,7 +7,7 @@ import {createApolloClient} from "../../src/lib/apolloClient";
 import {gql} from "graphql-tag";
 
 const Post = ({post}) => {
-    const name = 'Solomon Koang Dak';
+    const name = 'Solomon';
 
     return (
         <>

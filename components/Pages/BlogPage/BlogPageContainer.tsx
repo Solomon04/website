@@ -13,7 +13,7 @@ const BlogPageContainer: FunctionComponent = () => {
         <div className="py-16 mx-auto max-w-2xl">
             <h1
                 className="font-extrabold tracking-wider md:leading-loose text-gray-800 text-2xl md:text-4xl lg:text-5xl mb-3">
-                King Solomon Blog
+                Solomon
             </h1>
             <p className="text-gray-600 tracking-tight text-lg prose leading">
                 Here is where I like to journal my thoughts and share knowledge to the world
