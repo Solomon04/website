@@ -27,7 +27,7 @@ const PostPageContainer: FunctionComponent<PostPageProps> = (props) => {
                              alt="Solomon"
                              src="/solomon.jpeg"/>
                     </div>
-                    <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">Solomon Koang Dak / {dayjs(props.post.published_at).format('LL')}</p>
+                    <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">Solomon / {dayjs(props.post.published_at).format('LL')}</p>
                 </div>
                 <p className="text-sm text-gray-500 min-w-32 mt-2 md:mt-0">{readTime} min read</p></div>
             <div className="prose max-w-none w-full" dangerouslySetInnerHTML={{__html: props.post.content}}/>

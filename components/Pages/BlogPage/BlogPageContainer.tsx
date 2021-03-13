@@ -17,7 +17,7 @@ const BlogPageContainer: FunctionComponent = () => {
             </h1>
             <p className="text-gray-600 tracking-tight text-lg prose leading">
                 Here is where I like to journal my thoughts and share knowledge to the world
-                on topics such as software, entrepreneurship, philosophy, history and more.
+                on topics such as software and entrepreneurship.
             </p>
 
             <div className="relative w-full my-4">
