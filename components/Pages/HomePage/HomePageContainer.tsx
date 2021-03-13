@@ -14,7 +14,7 @@ const HomePageContainer: FunctionComponent = () => {
                     <div className="ml-3 md:space-y-4">
                         <h1
                             className="font-extrabold tracking-wide md:leading-loose text-gray-800 text-xl md:text-4xl lg:text-5xl">
-                            Hey, I'm Solomon Koang Dak
+                            Hey, I'm Solomon
                         </h1>
                         <p className="text-gray-600 tracking-tight md:leading-8 md:text-lg">
                             I am a 21 year old serial entrepreneur, software engineer, and content creator. I like to find problems in the world and implement solutions.
